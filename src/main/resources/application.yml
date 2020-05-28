@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+  #ÉèÖÃmvcÒ³ÃæÌø×ª
+  mvc:
+    view:
+      prefix: /views/jsp/
+      suffix: .jsp
