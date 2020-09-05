@@ -4,7 +4,7 @@ import org.openjdk.jol.info.ClassLayout;
 
 public class HelloJOL {
 
-
+    //wanghl
     public static void main(String[] args) throws Exception {
 
         Object o = new Object();
