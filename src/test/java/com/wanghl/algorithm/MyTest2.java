@@ -19,7 +19,7 @@ public class MyTest2 {
 //        UserService userService = new UserService();
         // 获取所有的属性值
         Stream.of(clazz.getDeclaredFields()).forEach(field -> {
-            String name = field.getName();
+//            String name = field.getName();
             Autowired annotation = field.getAnnotation(Autowired.class);
             if(annotation != null){
                 field.setAccessible(true);
